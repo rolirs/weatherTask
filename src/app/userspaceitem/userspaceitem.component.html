@@ -1,0 +1,11 @@
+<div class="userSpace">
+  <p id="city">Gothenburg</p>
+  <div>
+    <img [src]="path" id="icon" />
+  </div>
+  <p id="temperature">{{ temperature }}{{ degreeMetric }}</p>
+  <p id="wind">{{ wind }}{{ windMetric }}</p>
+  <p id="textWeather">
+    Today {{ currentTimeHour }}<br />{{ textWeatherString }}
+  </p>
+</div>

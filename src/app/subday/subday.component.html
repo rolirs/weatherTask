@@ -1,0 +1,38 @@
+<div class="phone">
+  <div class="oneDayRow" *ngFor="let day of days; let i = index">
+    <div class="day">
+      {{ day }}
+    </div>
+    <div>
+      <img [src]="forecastToShowPaths[i]" class="subdayPic" />
+    </div>
+    <div class="temperature">
+      {{ forecastToShow[i].data.instant.details.air_temperature
+      }}{{ weatherDataFromService.degreeMetric }}
+    </div>
+    <div class="windSpeed">
+      {{ forecastToShow[i].data.instant.details.wind_speed
+      }}{{ weatherDataFromService.windMetric }}
+    </div>
+  </div>
+</div>
+<div class="desktop">
+  <div class="oneDayColumn">
+    <div class="oneDayRow" *ngFor="let day of days; let i = index">
+      <div class="day">
+        {{ day }}
+      </div>
+      <div>
+        <img [src]="forecastToShowPaths[i]" class="subdayPic" />
+      </div>
+      <div class="temperature">
+        {{ forecastToShow[i].data.instant.details.air_temperature
+        }}{{ weatherDataFromService.degreeMetric }}
+      </div>
+      <div class="windSpeed">
+        {{ forecastToShow[i].data.instant.details.wind_speed
+        }}{{ weatherDataFromService.windMetric }}
+      </div>
+    </div>
+  </div>
+</div>

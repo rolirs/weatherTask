@@ -1,0 +1,44 @@
+.oneDayRow {
+  display: flex;
+  flex-direction: column;
+}
+.oneDayColumn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.subdayPic {
+  width: 64.03px;
+  height: 70.23px;
+  margin-bottom: 65.65px;
+}
+.oneDayRow {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  top: 109px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.day {
+  width: 71.66px;
+  height: 36.64px;
+}
+.temperature {
+  width: 93px;
+  height: 36.64px;
+  text-align: center;
+}
+.windSpeed {
+  width: 93px;
+  height: 36.64px;
+  text-align: center;
+}

@@ -1,0 +1,83 @@
+/*?-------------------------------------------------------*/
+@font-face {
+  font-family: "Volvo Novum";
+  src: local("Volvo Novum"),
+    url(./../../assets/fonts/VolvoNovum-Regular.ttf) format("truetype");
+}
+@media (min-width: 0px) {
+  .userSpace {
+    text-align: center;
+    padding-top: 209px;
+  }
+  #city {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    color: #828282;
+  }
+  #icon {
+    display: inline-block;
+    width: 42px;
+    height: 46px;
+  }
+  #temperature {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #bdbdbd;
+  }
+  #wind {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #bdbdbd;
+  }
+  #textWeather {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #bdbdbd;
+  }
+}
+
+@media (min-width: 834px) {
+  .userSpace {
+    text-align: center;
+    padding-top: 188px;
+  }
+  #city {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    color: #828282;
+  }
+  #icon {
+    display: inline-block;
+  }
+  #temperature {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #bdbdbd;
+  }
+  #wind {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #bdbdbd;
+  }
+  #textWeather {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #bdbdbd;
+  }
+}
